@@ -4,18 +4,24 @@ const CONFIG = {
     name: "yunchaehyun",
     image: "/chae.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Frontend Developer",
-    // bio: "",
+    bio: "",
     email: "dbscogus4467@naver.com",
-    // linkedin: "",
+    linkedin: "",
     github: "yunchaehyun",
-    // instagram: "",
+    instagram: "",
   },
-  // projects: [
-  //   {
-  //     name: ``,
-  //     href: "",
-  //   },
-  // ],
+  projects: [
+    {
+      name: "Git Challenge",
+      href: "https://github.com/boostcampwm2023/web01-GitChallenge",
+      image: "/git-challenge.png",
+    },
+    {
+      name: "우리의 가계부, 우리가",
+      href: "https://github.com/Uliga/Uliga_Frontend",
+      image: "/uliga.png",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "chae-devlog",
