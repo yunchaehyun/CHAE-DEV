@@ -121,5 +121,8 @@ const StyledWrapper = styled.div`
   .notion-page {
     line-height: 150%;
     padding: 0;
+    .notion-quote{
+      font-size: 0.875rem;
+    }
   }
 `
