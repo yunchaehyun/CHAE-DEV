@@ -119,6 +119,7 @@ const StyledWrapper = styled.div`
     display: none !important;
   }
   .notion-page {
+    line-height: 150%;
     padding: 0;
   }
 `
