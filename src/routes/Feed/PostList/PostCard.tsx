@@ -93,6 +93,17 @@ const StyledWrapper = styled(Link)`
       width: 100%;
       background-color: ${({ theme }) => theme.colors.gray2};
       padding-bottom: 66%;
+      overflow: hidden;
+
+      &:hover img {
+        transform: scale(1.05);
+        transition: transform 0.4s, -webkit-transform 0.4s;
+      }
+
+      &:not(:hover) img {
+        transform: scale(1);
+        transition: transform 0.4s, -webkit-transform 0.4s;
+      }
 
       @media (min-width: 1024px) {
         padding-bottom: 50%;
